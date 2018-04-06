@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客test</title>
+    <style>
+        /* reset */
+        *{margin:0; padding:0;}
+        ul{list-style-type: none;}
+        body{font-size: 14px; background: #9ACD32;}
+        /* Header */
+        .header{height:80px; background: #000;}
+        .header h1{color:#9ACD32;}
+        .header ul li{float: left;}
+        .header ul li a{margin: 0 10px;color:#fff; text-decoration: none;}
+        .header ul li a:hover{color:#9ACD32; text-decoration: underline;}
+        .header .wrapper{width: 700px; margin: 0 auto;}
+        .header .wrapper h1{float: left; height: 80px; line-height: 80px;}
+        .header .wrapper ul{float: right; height: 80px; line-height: 80px; }
+        /* content */
+        .main{clear: both; width: 700px; background: #fff; margin: 10px auto 0; padding:10px 10px 1px;}
+        .main h2{color: #000; margin-left: 23px; width: 650px;height: 182px; line-height: 182px; padding: 10px; background: url("./gui.gif") no-repeat}
+
+        .main .content{float: left; width: 500px;}
+        .main .sidebar{float: left; width: 180px;margin-left: 20px;}
+        .main h3{border-bottom: 1px solid #9ACD32; padding-bottom: 5px;}
+        .main .content p{text-indent: 2em; line-height: 22px; margin: 10px 0;}
+
+        .main .sidebar{line-height: 25px;}
+        .main .sidebar li a{text-decoration: none;}
+        .main .sidebar li a:hover{text-decoration: underline; color: #9ACD32}
+        .main .sidebar p{text-align: right;}
+        .main .sidebar p a{text-decoration: none;}
+        .main .sidebar p a:hover{text-decoration: underline; color: #9ACD32;}
+        .main .sidebar form{margin-top: 10px;}
+        .main .sidebar .keyword{width: 135px;}
+
+        .footer{clear: both; height: 60px;background: #252525;}
+        .footer p{height: 50px;line-height: 50px; text-align: center; color: #fff;}  
+    </style>
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="wrapper">
+            <!-- logo -->
+            <h1>我的博客</h1> 
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">我的日记</a></li>
+                <li><a href="">关于自己</a></li>
+                <li><a href="">留言本</a></li>
+                <li><a href="">友情链接</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- mian -->
+    <div class="main">
+        <h2>欢迎来到我的博客</h2>
+        <!-- content -->
+        <div class="content">
+            <div class="blog">
+                <h3>北京，我来啦</h3>
+                <p> 醒来已是傍晚时分，和同学一起出门打的来到“大鸭梨”，说这儿的烤鸭很好，同学点了一个标准烤鸭，来了一瓶白酒。烤鸭端上来了， 和我想象中的完全不一样，味道嘛，还凑合，喝了二两小酒，幸亏是低度酒，否则肯定吃不消了。吃完就回家了，看了一会电视，上了一会网， 等睡觉的时候已然一点半了，真够晚的。
+                </p>
+                <p>呵呵，晚上上网的时候，改了一下自己的qq签名-----北京，我来了！可对北京并没有什么感觉，真的是没什么感觉……
+                </p>
+            </div>
+            <div class="blog">
+                <h3>北京，我来啦</h3>
+                <p> 醒来已是傍晚时分，和同学一起出门打的来到“大鸭梨”，说这儿的烤鸭很好，同学点了一个标准烤鸭，来了一瓶白酒。烤鸭端上来了， 和我想象中的完全不一样，味道嘛，还凑合，喝了二两小酒，幸亏是低度酒，否则肯定吃不消了。吃完就回家了，看了一会电视，上了一会网， 等睡觉的时候已然一点半了，真够晚的。
+                </p>
+                <p>呵呵，晚上上网的时候，改了一下自己的qq签名-----北京，我来了！可对北京并没有什么感觉，真的是没什么感觉……
+                </p>
+            </div>
+            <div class="blog">
+                <h3>北京，我来啦</h3>
+                <p> 醒来已是傍晚时分，和同学一起出门打的来到“大鸭梨”，说这儿的烤鸭很好，同学点了一个标准烤鸭，来了一瓶白酒。烤鸭端上来了， 和我想象中的完全不一样，味道嘛，还凑合，喝了二两小酒，幸亏是低度酒，否则肯定吃不消了。吃完就回家了，看了一会电视，上了一会网， 等睡觉的时候已然一点半了，真够晚的。
+                </p>
+                <p>呵呵，晚上上网的时候，改了一下自己的qq签名-----北京，我来了！可对北京并没有什么感觉，真的是没什么感觉……
+                </p>
+            </div>
+        </div>
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div>
+                <h3>文章列表</h3>
+                <ul>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                </ul>
+                <p><a href="">更多...</a></p>
+            </div>
+            <div>
+                <h3>友情链接</h3>
+                <ul>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                    <li><a href="">旅途愉快</a></li>
+                </ul>
+                <p><a href="">更多...</a></p>
+            </div>
+            <div>
+                <h3>本站搜索</h3>
+                <form action="">
+                    <input type="text" class="keyword">
+                    <input type="submit" class="search">
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>©2008我的博客 | zlvc 我的博客</p>
+        </div>
+    </div>
+</body>
+</html>
